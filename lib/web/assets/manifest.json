@@ -1,0 +1,31 @@
+{
+  "short_name": "BB Seguros",
+  "name": "BB Seguros",
+  "icons": [
+    {
+      "src": "/assets/img/apple-touch-icon-2.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "/assets/img/apple-touch-icon-1.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "/assets/img/apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/apple-touch-icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "scope": "/",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#e11b22"
+}

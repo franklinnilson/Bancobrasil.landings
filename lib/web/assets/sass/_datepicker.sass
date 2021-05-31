@@ -1,0 +1,106 @@
+.ui-datepicker
+    display: none
+    width: 20rem
+    background: #fff
+    border-radius: 0.25rem
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2)
+    margin-top: 1rem
+
+    .ui-datepicker-header
+        text-align: center
+        padding: 1rem 0
+        text-transform: uppercase
+        letter-spacing: 0.1rem
+        a
+            span
+                display: none
+
+            &.ui-corner-all
+                cursor: pointer
+                position: absolute
+                top: 3px
+                width: 44px
+                height: 44px
+                margin: 0.5rem
+                border-radius: 50%
+                background: #4961f6
+
+            &.ui-datepicker-prev
+                left: 0
+
+                &:after
+                    font-size: 1.5rem
+                    transform: translate(-50%, -50%) rotate(45deg)
+                    border: solid $yellow
+                    border-width: 0 0 3px 3px
+                    content: ""
+                    clear: both
+                    position: absolute
+                    padding: 5px
+                    top: 50%
+                    left: 55%
+
+            &.ui-datepicker-next
+                right: 0
+    
+                &::after
+                    font-size: 1.5rem
+                    transform: translate(-50%, -50%) rotate(-45deg)
+                    border: solid $yellow
+                    border-width: 0 3px 3px 0
+                    content: ""
+                    clear: both
+                    position: absolute
+                    padding: 5px
+                    top: 50%
+                    left: 45%
+
+        .ui-datepicker-title
+            span
+                color: $blue
+                letter-spacing: 1px
+                font-weight: 600
+                font-size: 20px
+                margin: 8px 0
+                display: inline-block
+                text-transform: none
+    
+    .ui-datepicker-calendar
+        width: 100%
+        text-align: center
+        padding: 1rem
+        background: $blue
+
+        thead
+            tr
+                th
+                    span
+                        color: $yellow
+    
+        a
+            color: #fff
+            text-decoration: none
+            display: block
+            margin: 0 auto
+            width: 35px
+            height: 35px
+            line-height: 35px
+            border-radius: 50%
+            border: 1px solid transparent
+            cursor: pointer
+
+            &:hover
+                border: 1px solid #faf75e
+                background: #faf75e
+                color: #4961f6
+    
+        .ui-state-highlight
+            border: 1px solid #faf75e
+            background: #faf75e
+            color: #4961f6
+    
+        .ui-state-active
+            border: 1px solid #faf75e
+            background: #faf75e
+            color: #4961f6
+     

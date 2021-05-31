@@ -1,0 +1,377 @@
+@media (max-width: 1800px)
+
+    section
+        h1
+            font-size: 74px
+        h2
+            font-size: 54px
+        h3
+            font-size: 42px
+
+        h4
+            font-size: 23px
+
+        p
+            font-size: 18px
+
+            &.body-text
+                font-size: 18px
+
+    .btn-amarelo, .btn-azul, .link-simples
+        font-size: 16px
+
+    form
+        &.form-banner
+            width: 335px
+            right: 130px
+
+        h4
+            margin-top: 0
+            margin-bottom: 5px
+            font-size: 16px
+
+        label
+            font-size: 14px
+            margin-top: 5px
+
+            &.date 
+                span
+                    right: 8px
+                    top: 40px
+
+                    svg
+                        width: 15px
+                        height: auto
+
+        input
+            padding: 11px 15px
+            font-size: 13px
+
+        select
+            padding: 11px 15px
+            font-size: 13px
+
+        &.custom-select:after
+            width: 7px
+            height: 7px
+            border-width: 0px 2px 2px 0px
+
+        p
+            font-size: 14px
+            margin-bottom: 5px
+
+        .link-simples
+            font-size: 14px
+
+    .home 
+        #banner-home 
+            form 
+                top: 370px
+                .btn-amarelo
+                    margin-top: 20px
+                    font-size: 16px
+                    padding: 12px 41px
+                    border-radius: 8px
+
+@media (max-width: 1400px)
+        
+    header
+        .contato
+            a
+                font-size: 23px
+                line-height: 23px
+                span
+                    font-size: 14px
+
+                &.btn-contrate
+                    font-size: 14px
+                    margin-left: 30px
+        .navbar
+            margin-left: 10px
+
+            
+        .navbar-nav
+            .nav-item
+                margin-left: 20px
+                .btn
+                    margin: 0
+                    padding: 10px 50px 10px 16px
+                    span
+                        transform: rotate(90deg)
+
+            .nav-link
+                font-weight: normal
+                font-size: 16px
+                line-height: 21px
+                text-decoration: none
+                outline: none
+                text-align: right
+                color: $yellow
+                position: relative
+
+    
+    .home #banner-home
+        min-height: 850px
+
+
+@media (max-width: 1250px)
+    .home #simule .area-simule .area-text
+        position: relative
+        max-width: 500px
+
+    footer#footer p
+        font-size: 15px
+
+@media (max-width: 1000px)
+    
+    .content
+        padding: 0
+
+    header
+        padding: 0 20px
+
+        .logo
+            margin: 27px 0px 0 10px
+
+            img
+                width: 75px
+                height: auto
+
+        .contato
+            margin-right: 55px
+            display: inline-block
+            height: auto
+            margin-top: 41px
+
+            a
+                font-size: 18px
+                line-height: 18px
+
+                span
+                    font-size: 14px
+
+                &.btn-contrate
+                    display: none
+
+        .navbar
+            button
+                background: none
+                border: none
+                outline: none
+                position: absolute
+                right: 10px
+                top: calc(50% + 15px)
+                transform: translateY(-50%)
+                display: block
+                z-index: 99
+
+            .collapse
+                display: none
+
+                &.in
+                    display: block
+
+                .navbar-nav
+                    position: absolute
+                    top: 100px
+                    width: 100%
+                    left: 0
+                    display: block
+                    background: $blue
+                    text-align: center
+                    height: auto
+                    padding: 20px 0
+
+                    .nav-item
+                        margin: 15px 0
+
+    .area-cards
+        .card-amarelo
+            max-width: 100%
+            margin: 15px 0
+            width: 100%
+
+    form 
+        input
+            &[type=checkbox]
+                width: 20px
+                height: 20px
+                top: 4px
+
+    .home 
+
+        .float-button
+            right: 15px
+            bottom: 15px
+
+            .btn
+                width: 60px
+                height: 60px
+                svg
+                    width: 30px
+
+        #banner-home 
+            min-height: auto
+            padding-top: 250px
+            height: auto
+
+            .area-text
+                position: relative
+                transform: none
+                top: 0
+                left: 0
+                width: 370px
+                margin: 0 auto
+                max-width: 100%
+
+                p
+                    font-size: 20px
+                    margin: 10px 0
+                h1 
+                    font-size: 75px
+                    span
+                        &.stroke-font
+                            -webkit-text-stroke-width: 4px
+                            font-size: 75px
+
+                        &.normal-font
+                            font-size: 75px
+
+                    small
+                        font-size: 20px
+                        font-weight: 300
+                        margin: 5px 0 0 80px
+
+
+            form
+                margin-top: 30px
+                top: 20px
+                float: none
+                right: 0
+                width: 100%
+                box-shadow: 0 7px 10px rgb(0 0 0 / 30%)
+                background: $blue
+
+        #seguro-auto
+            padding: 100px 20px 40px
+            .area-cards
+                padding: 0
+                margin-top: 45px
+                display: block
+
+                .sobre-seguro
+                    display: inline-block
+                    width: 100%
+                    padding-right: 10px
+                    margin: 15px 0
+
+
+        #fale-conosco
+            &:before
+                height: 560px
+
+            .area-cards
+                padding: 0 12px
+                .card-amarelo
+                    padding: 30px 30px 30px 39px
+
+                    &.card-horarios
+                        width: 100%
+                        margin: 15px 0
+                        h4
+                            &:before
+                                display: none
+
+                    h4
+                        position: relative
+                        br
+                            display: none
+
+                        span
+                            position: absolute
+                            right: 3px
+                            width: 17px
+                            height: 17px
+                            display: block
+                            top: 2px
+
+                            svg
+                                width: 17px
+                                height: auto
+                                fill: $blue
+                                -webkit-transition: 0.3s ease-in-out
+                                -moz-transition: 0.3s ease-in-out
+                                -o-transition: 0.3s ease-in-out
+                                -ms-transition: 0.3s ease-in-out
+                                transition: 0.3s ease-in-out
+
+                    .fc-box
+                        max-height: 0
+                        overflow: hidden
+                        -webkit-transition: 0.3s ease-in-out
+                        -moz-transition: 0.3s ease-in-out
+                        -o-transition: 0.3s ease-in-out
+                        -ms-transition: 0.3s ease-in-out
+                        transition: 0.3s ease-in-out
+
+                    &.active
+                        .fc-box
+                            max-height: 600px
+
+
+                        h4
+                            span
+                                svg
+                                    transform: rotate(180deg)
+
+
+        #simule
+            display: none
+            padding: 100px 10px 0
+
+            .area-simule
+                padding: 50px 20px
+
+                .area-text
+                    h4
+                        font-size: 26px
+                        width: 190px
+
+                .area-button
+                    position: relative
+                    right: 0
+                    bottom: 0
+
+
+        #info-list
+            margin-top: 100px
+            padding: 45px 20px
+
+            p
+                font-size: 12px
+
+    footer
+        &#footer
+            text-align: center
+
+            p
+                margin: 20px 30px 40px
+                font-size: 14px
+                font-weight: 300
+                line-height: 1.1em
+
+            .logo-footer
+                display: block
+
+                .logo
+                    display: inline-block
+
+            .links-footer
+                position: relative
+                right: 0
+                top: 0
+                transform: none
+
+                .link-simples
+                    margin: 0 9px
+                    font-size: 16px

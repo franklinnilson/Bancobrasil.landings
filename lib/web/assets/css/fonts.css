@@ -1,0 +1,179 @@
+@font-face {
+    font-family: 'BancoDoBrasil Textos';
+    src: url('../fonts/bb-fonts/BancoDoBrasilTextos-Bold.woff2') format('woff2'),
+        url('../fonts/bb-fonts/BancoDoBrasilTextos-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BancoDoBrasil Textos';
+    src: url('../fonts/bb-fonts/BancoDoBrasilTextos-BoldIt.woff2') format('woff2'),
+        url('../fonts/bb-fonts/BancoDoBrasilTextos-BoldIt.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BancoDoBrasil Textos';
+    src: url('../fonts/bb-fonts/BancoDoBrasilTextos-Italic.woff2') format('woff2'),
+        url('../fonts/bb-fonts/BancoDoBrasilTextos-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BancoDoBrasil Textos';
+    src: url('../fonts/bb-fonts/BancoDoBrasilTextos-LightIt.woff2') format('woff2'),
+        url('../fonts/bb-fonts/BancoDoBrasilTextos-LightIt.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BancoDoBrasil Textos';
+    src: url('../fonts/bb-fonts/BancoDoBrasilTextos-Light.woff2') format('woff2'),
+        url('../fonts/bb-fonts/BancoDoBrasilTextos-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BancoDoBrasil Titulos';
+    src: url('../fonts/bb-fonts/BancoDoBrasilTitulos-LightIt.woff2') format('woff2'),
+        url('../fonts/bb-fonts/BancoDoBrasilTitulos-LightIt.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BancoDoBrasil Textos';
+    src: url('../fonts/bb-fonts/BancoDoBrasilTextos-Regular.woff2') format('woff2'),
+        url('../fonts/bb-fonts/BancoDoBrasilTextos-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BancoDoBrasil Textos';
+    src: url('../fonts/bb-fonts/BancoDoBrasilTextos-XBold.woff2') format('woff2'),
+        url('../fonts/bb-fonts/BancoDoBrasilTextos-XBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BancoDoBrasil Textos';
+    src: url('../fonts/bb-fonts/BancoDoBrasilTextos-XBoldIt.woff2') format('woff2'),
+        url('../fonts/bb-fonts/BancoDoBrasilTextos-XBoldIt.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BancoDoBrasil Titulos';
+    src: url('../fonts/bb-fonts/BancoDoBrasilTitulos-Bold.woff2') format('woff2'),
+        url('../fonts/bb-fonts/BancoDoBrasilTitulos-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BancoDoBrasil Textos';
+    src: url('../fonts/bb-fonts/BancoDoBrasilTextos-MediumIt.woff2') format('woff2'),
+        url('../fonts/bb-fonts/BancoDoBrasilTextos-MediumIt.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BancoDoBrasil Titulos';
+    src: url('../fonts/bb-fonts/BancoDoBrasilTitulos-Light.woff2') format('woff2'),
+        url('../fonts/bb-fonts/BancoDoBrasilTitulos-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BancoDoBrasil Titulos';
+    src: url('../fonts/bb-fonts/BancoDoBrasilTitulos-Medium.woff2') format('woff2'),
+        url('../fonts/bb-fonts/BancoDoBrasilTitulos-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BancoDoBrasil Textos';
+    src: url('../fonts/bb-fonts/BancoDoBrasilTextos-Medium.woff2') format('woff2'),
+        url('../fonts/bb-fonts/BancoDoBrasilTextos-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BancoDoBrasil Titulos';
+    src: url('../fonts/bb-fonts/BancoDoBrasilTitulos-Italic.woff2') format('woff2'),
+        url('../fonts/bb-fonts/BancoDoBrasilTitulos-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BancoDoBrasil Titulos';
+    src: url('../fonts/bb-fonts/BancoDoBrasilTitulos-BoldIt.woff2') format('woff2'),
+        url('../fonts/bb-fonts/BancoDoBrasilTitulos-BoldIt.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BancoDoBrasil Titulos';
+    src: url('../fonts/bb-fonts/BancoDoBrasilTitulos-Regular.woff2') format('woff2'),
+        url('../fonts/bb-fonts/BancoDoBrasilTitulos-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BancoDoBrasil Titulos';
+    src: url('../fonts/bb-fonts/BancoDoBrasilTitulos-XBoldIt.woff2') format('woff2'),
+        url('../fonts/bb-fonts/BancoDoBrasilTitulos-XBoldIt.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BancoDoBrasil Titulos';
+    src: url('../fonts/bb-fonts/BancoDoBrasilTitulos-MediumIt.woff2') format('woff2'),
+        url('../fonts/bb-fonts/BancoDoBrasilTitulos-MediumIt.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BancoDoBrasil Titulos';
+    src: url('../fonts/bb-fonts/BancoDoBrasilTitulos-XBold.woff2') format('woff2'),
+        url('../fonts/bb-fonts/BancoDoBrasilTitulos-XBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}

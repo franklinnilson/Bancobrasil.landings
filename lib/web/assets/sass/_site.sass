@@ -1,0 +1,815 @@
+*
+    box-sizing: border-box
+
+html
+    scroll-behavior: smooth
+body
+    margin: 0
+    padding: 0
+    border: 0
+    box-sizing: border-box
+    background: $white
+    color: white
+    line-height: 150%
+
+    a
+        font-weight: bold
+        font-family: 'BancoDoBrasil Textos'
+
+    p, span
+        font-family: 'BancoDoBrasil Textos'
+
+img
+    max-width: 100%
+    height: auto
+
+.validate.error input
+    border: 3px solid #ff1919
+    
+.validate.error .msg
+    display: block
+
+.msg
+    color: #ffffff
+    font-size: 14px
+    text-align: right
+    display: none
+
+
+section
+    h1
+        font-weight: bold
+        font-size: 84px
+        line-height: 1.1em
+        letter-spacing: -0.045em
+        color: $dark
+        margin: 0
+        font-family: 'BancoDoBrasil Titulos'
+    h2
+        font-style: normal
+        font-weight: bold
+        font-size: 64px
+        line-height: 1.1em
+        letter-spacing: -0.045em
+        color: $dark
+        margin: 0
+        font-family: 'BancoDoBrasil Titulos'
+    h3
+        font-style: normal
+        font-weight: bold
+        font-size: 52px
+        line-height: 1.1em
+        letter-spacing: -0.045em
+        color: $dark
+        margin: 0
+        font-family: 'BancoDoBrasil Titulos'
+
+    h4
+        font-style: normal
+        font-weight: normal
+        font-size: 44px
+        line-height: 1.1em
+        letter-spacing: -0.03em
+        color: $dark
+        margin: 0
+        font-family: 'BancoDoBrasil Titulos'
+
+    p
+        font-style: normal
+        font-weight: 300
+        font-size: 24px
+        line-height: 120%
+        letter-spacing: -0.02em
+        color: $dark
+        font-family: 'BancoDoBrasil Textos'
+
+    div, span
+        font-family: 'BancoDoBrasil Textos'
+
+        &.body-text
+            font-size: 24px
+    a
+        text-decoration: none
+        outline: none
+        font-family: 'BancoDoBrasil Textos'
+        -webkit-transition: 0.3s ease-in-out
+        -moz-transition: 0.3s ease-in-out
+        -o-transition: 0.3s ease-in-out
+        -ms-transition: 0.3s ease-in-out
+        transition: 0.3s ease-in-out
+
+    label
+        text-decoration: none
+        outline: none
+        font-family: 'BancoDoBrasil Textos'
+
+    .subtitle
+        font-weight: 500
+        font-size: 28px
+        line-height: 1.2em
+        letter-spacing: -0.03em
+        color: $dark
+        margin: 0
+        font-family: 'BancoDoBrasil Titulos'
+
+    input
+        font-family: 'BancoDoBrasil Textos'
+
+    strong
+        font-weight: bold
+
+    ul
+        padding-left: 14px
+        list-style: none
+
+        li
+            color: $dark
+            position: relative
+
+            &:before
+                content: ""
+                clear: both
+                position: absolute
+                left: -14px
+                top: 12px
+                width: 6px
+                height: 6px
+                background: $dark
+                border-radius: 50%
+.btn-azul
+    background: $blue
+    font-style: normal
+    font-weight: bold
+    font-size: 30px
+    line-height: 120%
+    letter-spacing: -0.03em
+    border: 2px solid $blue
+    color: $yellow
+    display: inline-block
+    padding: 16px 41px
+    border-radius: 16px
+    box-shadow: 0px 4px 8px rgb(37 37 144 / 20%)
+    cursor: pointer
+    -webkit-transition: 0.3s ease-in-out
+    -moz-transition: 0.3s ease-in-out
+    -o-transition: 0.3s ease-in-out
+    -ms-transition: 0.3s ease-in-out
+    transition: 0.3s ease-in-out
+
+    &:hover
+        background: $yellow
+        color: $blue
+
+.btn-amarelo
+    background: $yellow
+    font-style: normal
+    font-weight: bold
+    font-size: 30px
+    line-height: 120%
+    letter-spacing: -0.03em
+    border: 2px solid $yellow
+    color: $blue
+    display: inline-block
+    padding: 16px 41px
+    border-radius: 16px
+    box-shadow: 0px 4px 8px rgb(37 37 144 / 20%)
+    cursor: pointer
+    -webkit-transition: 0.3s ease-in-out
+    -moz-transition: 0.3s ease-in-out
+    -o-transition: 0.3s ease-in-out
+    -ms-transition: 0.3s ease-in-out
+    transition: 0.3s ease-in-out
+    
+    &:hover
+        background: $blue
+        color: $yellow
+
+
+.link-simples
+    font-style: normal
+    font-weight: 500
+    font-size: 21px
+    line-height: 135%
+    display: flex
+    align-items: center
+    letter-spacing: -0.01em
+    text-decoration-line: underline
+    color: $blue
+    cursor: pointer
+    display: inline-block
+
+.area-cards
+    display: flex
+    text-align: center
+    flex: 1 0 calc(33.333% - 30px)
+    flex-wrap: wrap
+    align-items: flex-start
+
+    .card-amarelo
+        display: inline-block
+        position: relative
+        background: $yellow
+        box-shadow: 10px 10px 50px 3px rgb(39 92 141 / 10%)
+        border-radius: 12px
+        max-width: calc(33.333% - 30px)
+        margin: 0 30px 30px 0
+        padding: 39px
+        text-align: left
+        transition: ease-in-out .5s
+        min-height: 400px
+
+        h4
+            color: $blue
+
+        p
+            margin: 20px 0 10px
+
+
+.content
+    max-width: 100%
+    width: 1360px
+    padding: 0 40px
+    margin: 0 auto
+    position: relative
+    height: 100%
+
+form
+    &.form-banner
+        float: right
+        width: 435px
+        background: rgba(71, 94, 253, 0.8)
+        bottom: 0
+        position: relative
+        right: 130px
+        border-radius: 16px
+        padding: 30px 30px 50px
+        text-align: center
+
+    p
+        color: $white
+        font-size: 24px
+        text-align: left
+        font-weight: 500
+
+    h4
+        margin-top: 0
+        margin-bottom: 15px
+        font-size: 28px
+        font-weight: 500
+        line-height: 1.3em
+        text-align: left
+        color: $white
+
+    label
+        font-size: 16px
+        font-weight: 500
+        margin-top: 10px
+        margin-bottom: 5px
+        display: inline-block
+        float: left
+
+        &.check
+            margin: 35px 0 10px
+            position: relative
+            padding-left: 35px
+
+            input
+                position: absolute
+                opacity: 0
+                cursor: pointer
+                height: 0
+                width: 0
+
+                &:checked ~ .checkmark:after 
+                    display: block
+
+            .checkmark
+                position: absolute
+                top: 0
+                left: 0
+                height: 25px
+                width: 25px
+                background-color: $white
+                border-radius: 5px
+                cursor: pointer
+
+
+                &:after
+                    content: ""
+                    position: absolute
+                    display: none
+                    left: 7px
+                    top: 0px
+                    width: 7px
+                    height: 16px
+                    border: solid $blue
+                    border-width: 0 4px 4px 0
+                    -webkit-transform: rotate(45deg)
+                    -ms-transform: rotate(45deg)
+                    transform: rotate(45deg)
+
+        &.date
+            position: relative
+            width: 100%
+            text-align: left
+
+            span
+                position: absolute
+                right: 13px
+                top: 42px
+
+    select
+        width: 100%
+        position: relative
+        padding: 15px 15px
+        font-size: 20px
+        border-radius: 8px
+        border: none
+        color: rgb(35 36 42 / 50%)
+        outline: none
+        font-weight: 500
+        -webkit-appearance: none
+        -moz-appearance: none
+        appearance: none
+        font-family: 'BancoDoBrasil Textos'    
+
+    .custom-select
+        position: relative
+        width: 100%
+        display: inline-block
+
+        &:after
+            content: ""
+            clear: both
+            position: absolute
+            right: 20px
+            top: 40%
+            width: 12px
+            height: 12px
+            border: $dark solid
+            opacity: .5
+            border-width: 0px 3px 3px 0px 
+            transform: rotate(45deg) translateY(-50%)
+
+    .link-simples
+        color: $yellow
+        font-weight: 300
+
+    input
+        width: 100%
+        padding: 13px 15px
+        font-size: 20px
+        border-radius: 8px
+        border: none
+        color: $dark
+        outline: none
+        font-weight: 500
+
+        &::-webkit-inner-spin-button,
+        &::-webkit-calendar-picker-indicator
+            display: none
+            -webkit-appearance: none
+
+        &[type="checkbox"]
+            &:checked
+                background: $white
+
+        &::-webkit-datetime-edit-text
+            color: $dark
+            opacity: .5
+            font-weight: 300
+
+        &::-webkit-datetime-edit-month-field
+            color: $dark
+            opacity: .5
+            font-weight: 300            
+        
+        &::-webkit-datetime-edit-day-field
+            color: $dark
+            opacity: .5
+            font-weight: 300
+        
+        &::-webkit-datetime-edit-year-field 
+            color: $dark
+            opacity: .5
+            font-weight: 400
+        
+        &::-webkit-input-placeholder
+            color: $dark
+            opacity: .5
+            font-weight: 400
+
+        &:-moz-placeholder
+            color: $dark
+            opacity: .5
+            font-weight: 400
+
+        &::-moz-placeholder
+            color: $dark
+            opacity: .5
+            font-weight: 400
+
+        &:-ms-input-placeholder
+            color: $dark
+            opacity: .5
+            font-weight: 400
+
+
+        &::-webkit-input-placeholder
+            color: $dark
+            opacity: .5
+            font-weight: 400
+
+        &:-moz-placeholder
+            color: $dark
+            opacity: .5
+            font-weight: 400
+
+        &::-moz-placeholder
+            color: $dark
+            opacity: .5
+            font-weight: 400
+
+        &:-ms-input-placeholder
+            color: $dark
+            opacity: .5
+            font-weight: 400
+
+
+    .btn-primary
+        margin-top: 30px
+
+header
+    position: fixed
+    z-index: 999
+    width: 100%
+    top: 0
+    background: $blue
+    height: 100px
+    padding: 0 50px
+
+    .logo
+        margin: 10px 0
+        display: inline-block
+        float: left
+
+        img
+            width: 109px
+            height: 80px
+
+    .contato
+        float: right
+        height: 100px
+        display: flex
+        align-items: center
+
+        a
+            display: inline-block
+            color: $yellow
+            font-size: 26px
+            text-decoration: none
+            text-align: right
+            line-height: 26px
+
+            span
+                color: $yellow
+                font-size: 16px
+                margin-bottom: 3px
+                display: inline-block
+
+            &.btn-contrate
+                border: 1.5px solid $yellow
+                border-radius: 8px
+                box-sizing: border-box
+                padding: 6px 14px 8px
+                font-size: 16px
+                line-height: 1em
+                margin-left: 30px
+                position: relative
+                font-weight: 500
+                -webkit-transition: 0.3s ease-in-out
+                -moz-transition: 0.3s ease-in-out
+                -o-transition: 0.3s ease-in-out
+                -ms-transition: 0.3s ease-in-out
+                transition: 0.3s ease-in-out
+
+                &:hover
+                    background: $yellow
+                    color: $blue
+
+    .navbar
+        display: inline-block
+        padding: 0
+        margin-left: 40px
+
+    
+    .navbar 
+        button
+            background: none
+            border: none
+            outline: none
+            display: none
+
+            svg
+                width: 30px
+                fill: $white
+
+    .navbar-nav
+        margin-top: 0
+        margin: 0
+        display: flex
+        align-items: center
+        height: 100px
+        list-style: none
+        padding-left: 0
+
+        .nav-item
+            margin-left: 30px
+
+            .btn
+                margin: 0
+                padding: 10px 50px 10px 16px
+
+                span
+                    transform: rotate(90deg)
+
+        .nav-link
+            font-size: 19px
+            line-height: 21px
+            text-decoration: none
+            outline: none
+            text-align: right
+            color: $yellow
+            position: relative
+            font-weight: 500
+
+            -webkit-transition: 0.2s ease-in-out
+            -moz-transition: 0.2s ease-in-out
+            -o-transition: 0.2s ease-in-out
+            -ms-transition: 0.2s ease-in-out
+            transition: 0.2s ease-in-out
+
+            &:hover
+                color: $white
+
+
+.home
+    position: relative
+
+    .float-button
+        position: fixed
+        z-index: 99
+        right: 40px
+        bottom: 40px
+        .btn
+            background: #0FCD5B
+            box-shadow: -30px 26px 60px rgb(73 97 246 / 50%)
+            display: flex
+            width: 80px
+            height: 80px
+            border-radius: 50%
+            appearance: none
+            border: none
+            color: transparent
+            position: relative
+            z-index: 999
+            color: $white
+            font-size: 30px
+            outline: none
+            align-items: center
+            text-decoration: none
+            text-align: center
+            justify-content: center
+
+            svg
+                display: inline-block
+                width: 40px
+                height: auto
+                fill: $white
+
+    #banner-home
+        height: 100vh
+        width: 100%
+        position: relative
+        background: url('../img/banner-home.jpg') no-repeat center center fixed
+        background-size: cover
+        background-position-y: 100px
+        z-index: 9
+        min-height: 800px
+
+        .area-text
+            position: absolute
+            transform: translate(-50%, -50%)
+            top: calc(50% + 50px)
+            left: 30%
+            text-align: center
+
+            p
+                color: $yellow
+                font-size: 27px
+                text-align: left
+                display: inline-block
+                font-weight: 400
+                letter-spacing: 0.3px
+
+            h1
+                color: $yellow
+                font-size: 80px
+                margin: 0
+
+                span
+                    &.stroke-font
+                        -webkit-text-stroke-width: 2px
+                        -webkit-text-stroke-color: #FFFFFF
+                        color: transparent
+                        font-size: 113px
+                        font-weight: 700
+                        line-height: 0.5em
+                    &.normal-font
+                        display: inline-block
+                        line-height: 0.65em
+                        text-align: left
+                        font-size: 113px
+                small
+                    font-size: 27px
+                    color: $white
+                    display: inline-block
+                    float: left
+                    margin: 5px 20px 0 50px
+                    text-align: left
+                    font-weight: 400
+                    line-height: 1.1em
+                    letter-spacing: normal
+        
+        form
+            top: 170px
+
+            .btn-amarelo
+                margin-top: 30px
+
+    #seguro-auto
+        position: relative
+        padding: 170px 0 120px
+        background: $white
+
+        .area-text
+            max-width: 625px
+
+            p
+                font-weight: 500
+
+            h3
+                color: $blue
+
+        .area-cards
+            padding-left: 70px
+            margin-top: 105px
+            .sobre-seguro
+                display: inline-block
+                width: 50%
+                padding-right: 50px
+                text-align: left
+                margin: 25px 0 0
+
+                .subtitle
+                    color: $blue
+
+                    sup
+                        font-size: 16px
+                        font-weight: 600
+
+
+    #fale-conosco
+        position: relative
+        padding-top: 480px
+
+        &:before
+            content: ""
+            clear: both
+            position: absolute
+            left: 0
+            top: 0
+            width: 100%
+            height: 590px
+            background: url('../img/bg-coberturas.jpg') no-repeat center center
+            background-size: cover
+
+        .card-amarelo
+            min-height: auto
+            padding: 39px 30px 39px 39px
+
+            h4
+                span
+                    display: none
+
+            &.card-horarios
+                background: $gray
+                margin-left: 66.666%
+                margin-top: -100px
+                width: 33.333%
+
+        h3
+            color: $blue
+
+        form
+            label
+                color: $dark
+
+        p
+            font-weight: 400
+
+            strong
+                font-weight: 500
+
+            small
+                font-size: 18px
+                line-height: 1em
+                font-weight: 500
+
+            &.body-text
+                strong
+                    color: $blue
+                    font-size: 32px
+                    font-weight: 600
+
+        .btn-azul
+            margin: 40px 0 10px
+            padding: 18px 24px
+
+
+
+    #simule
+        padding-top: 110px
+        
+        .area-simule
+            position: relative
+            background: $blue
+            padding: 99px 100px
+            border-radius: 12px
+
+            .area-text
+                position: relative
+                max-width: 670px
+
+                h4
+                    color: $yellow
+
+                p
+                    color: $white
+
+            .area-button
+                position: absolute
+                right: 120px
+                bottom: 130px
+
+    #perguntas-frequentes
+        padding-top: 170px
+        h3
+            color: $blue
+
+        p
+            font-size: 24px
+            font-weight: 300
+
+    #info-list
+        margin-top: 170px
+        background: $gray
+        padding: 45px 0
+
+        p
+            margin: 0
+
+        sup
+            color: $blue
+            font-weight: 600
+
+footer
+    &#footer
+        background: $blue
+        padding: 55px 0 45px
+
+        .logo-footer
+            display: inline-flex
+            align-items: center
+            justify-content: center
+
+            .logo
+                width: 109px
+                height: 80px
+
+        .links-footer
+            position: absolute
+            right: 130px
+            top: 50%
+            transform: translateY(-50%)
+
+            .link-simples
+                color: $yellow
+                display: inline-block
+                margin: 0 15px
+        p
+            margin: 0 30px
+            font-size: 21px
+
+            strong
+                font-weight: 700
