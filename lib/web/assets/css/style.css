@@ -154,6 +154,9 @@ input:checked ~ .tab-content p {
   padding: 1rem;
   background: #4961f6;
 }
+.ui-datepicker .ui-datepicker-calendar .ui-state-disabled span {
+  opacity: 0.5;
+}
 .ui-datepicker .ui-datepicker-calendar thead tr th span {
   color: #FAF75E;
 }
@@ -531,6 +534,7 @@ form select {
   -moz-appearance: none;
   appearance: none;
   font-family: "BancoDoBrasil Textos";
+  background: #FFFFFF;
 }
 form .custom-select {
   position: relative;
@@ -541,10 +545,10 @@ form .custom-select:after {
   content: "";
   clear: both;
   position: absolute;
-  right: 20px;
+  right: 13px;
   top: 40%;
-  width: 12px;
-  height: 12px;
+  width: 8px;
+  height: 8px;
   border: #23242A solid;
   opacity: 0.5;
   border-width: 0px 3px 3px 0px;
@@ -1038,7 +1042,7 @@ footer#footer p strong {
   form h4 {
     margin-top: 0;
     margin-bottom: 5px;
-    font-size: 16px;
+    font-size: 20px;
   }
   form label {
     font-size: 14px;
