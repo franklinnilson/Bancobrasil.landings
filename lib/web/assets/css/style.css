@@ -1295,8 +1295,8 @@ footer#footer p strong {
     min-height: auto;
     padding-top: 250px;
     height: auto;
-    background: url("../img/banner-home.jpg") no-repeat center center;
-    background-size: cover;
+    background: url("../img/banner-home-mobile.jpg") no-repeat center center;
+    background-size: 100%;
     background-position-y: 100px;
   }
   .home #banner-home .area-text {
