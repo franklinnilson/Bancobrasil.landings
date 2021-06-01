@@ -1334,7 +1334,7 @@ footer#footer p strong {
     right: 0;
     width: 100%;
     box-shadow: 0 7px 10px rgba(0, 0, 0, 0.3);
-    background: #4961f6;
+    background: rgba(73, 97, 246, 0.8);
   }
   .home #seguro-auto {
     padding: 100px 20px 40px;
