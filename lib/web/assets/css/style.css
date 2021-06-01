@@ -218,7 +218,7 @@ img {
   height: auto;
 }
 
-.validate.error input {
+.validate.error input, .validate.error select {
   border: 3px solid #ff1919;
 }
 
@@ -471,7 +471,7 @@ form.form-banner .form-error {
 form.form-banner .form-error h3 {
   line-height: 1em;
   margin: 15px 0;
-  color: #f44336;
+  color: #FFFFFF;
 }
 form.form-banner .form-error h3 strong {
   line-height: 1.3;
